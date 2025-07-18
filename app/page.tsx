@@ -21,7 +21,7 @@ export default function EuropeanTripTimeline() {
         })
       },
       {
-        threshold: 0.3,
+        threshold: 0.6,
         rootMargin: "-20% 0px -20% 0px",
       },
     )
