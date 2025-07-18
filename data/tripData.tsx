@@ -7,7 +7,7 @@ const tripData: Day[] = [
     date: "Day 1 - Sept 24",
     city: "Hanoi",
     country: "Vietnam",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/vietnam.svg?height=80&width=80",
     activities: [
       {
         time: "23:05",
@@ -22,7 +22,7 @@ const tripData: Day[] = [
     date: "Day 2 - Sept 25",
     city: "Athens",
     country: "Greece",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/greece.svg?height=80&width=80",
     activities: [
       {
         time: "08:55",
@@ -49,7 +49,7 @@ const tripData: Day[] = [
     date: "Day 3 - Sept 26",
     city: "Santorini",
     country: "Greece",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/greece.svg?height=80&width=80",
     activities: [
       {
         time: "08:00",
@@ -70,7 +70,7 @@ const tripData: Day[] = [
     date: "Day 4 - Sept 27",
     city: "Santorini",
     country: "Greece",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/greece.svg?height=80&width=80",
     activities: [
       {
         time: "09:00",
@@ -85,7 +85,7 @@ const tripData: Day[] = [
     date: "Day 5 - Sept 28",
     city: "Santorini",
     country: "Greece",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/greece.svg?height=80&width=80",
     activities: [
       {
         time: "10:00",
@@ -100,7 +100,7 @@ const tripData: Day[] = [
     date: "Day 6 - Sept 29",
     city: "Santorini",
     country: "Greece",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/greece.svg?height=80&width=80",
     activities: [
       {
         time: "Free Day",
@@ -115,7 +115,7 @@ const tripData: Day[] = [
     date: "Day 7 - Sept 30",
     city: "Athens",
     country: "Greece",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/greece.svg?height=80&width=80",
     activities: [
       {
         time: "09:50",
@@ -136,7 +136,7 @@ const tripData: Day[] = [
     date: "Day 8 - Oct 1",
     city: "Dubrovnik",
     country: "Croatia",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/croatia.svg?height=80&width=80",
     activities: [
       {
         time: "08:45",
@@ -157,7 +157,7 @@ const tripData: Day[] = [
     date: "Day 9 - Oct 2",
     city: "Kotor",
     country: "Montenegro",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/montenegro.svg?height=80&width=80",
     activities: [
       {
         time: "Day Trip",
@@ -172,7 +172,7 @@ const tripData: Day[] = [
     date: "Day 10 - Oct 3",
     city: "Dubrovnik",
     country: "Croatia",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/croatia.svg?height=80&width=80",
     activities: [
       {
         time: "All Day",
@@ -185,9 +185,9 @@ const tripData: Day[] = [
   {
     id: 11,
     date: "Day 11 - Oct 4",
-    city: "Split",
-    country: "Croatia",
-    image: "/placeholder.svg?height=80&width=80",
+    city: "Mostar",
+    country: "Bosnia",
+    image: "/bosnia.svg?height=80&width=80",
     activities: [
       {
         time: "08:00",
@@ -206,9 +206,9 @@ const tripData: Day[] = [
   {
     id: 12,
     date: "Day 12 - Oct 5",
-    city: "Plitvice",
+    city: "Split",
     country: "Croatia",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/croatia.svg?height=80&width=80",
     activities: [
       {
         time: "Day Trip",
@@ -223,7 +223,7 @@ const tripData: Day[] = [
     date: "Day 13 - Oct 6",
     city: "Split",
     country: "Croatia",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/croatia.svg?height=80&width=80",
     activities: [
       {
         time: "Free Day",
@@ -238,7 +238,7 @@ const tripData: Day[] = [
     date: "Day 14 - Oct 7",
     city: "Istanbul",
     country: "Turkey",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/turkey.svg?height=80&width=80",
     activities: [
       {
         time: "18:00",
@@ -253,7 +253,7 @@ const tripData: Day[] = [
     date: "Day 15 - Oct 8",
     city: "Istanbul",
     country: "Turkey",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/turkey.svg?height=80&width=80",
     activities: [
       {
         time: "10:00",
@@ -274,7 +274,7 @@ const tripData: Day[] = [
     date: "Day 16 - Oct 9",
     city: "Istanbul",
     country: "Turkey",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/turkey.svg?height=80&width=80",
     activities: [
       {
         time: "09:00",
@@ -301,7 +301,7 @@ const tripData: Day[] = [
     date: "Day 17 - Oct 10",
     city: "Göreme",
     country: "Turkey",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/turkey.svg?height=80&width=80",
     activities: [
       {
         time: "05:00",
@@ -322,7 +322,7 @@ const tripData: Day[] = [
     date: "Day 18 - Oct 11",
     city: "Göreme",
     country: "Turkey",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/turkey.svg?height=80&width=80",
     activities: [
       {
         time: "05:00",
@@ -343,7 +343,7 @@ const tripData: Day[] = [
     date: "Day 19 - Oct 12",
     city: "Göreme",
     country: "Turkey",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/turkey.svg?height=80&width=80",
     activities: [
       {
         time: "Morning",
@@ -364,7 +364,7 @@ const tripData: Day[] = [
     date: "Day 20 - Oct 13",
     city: "Istanbul",
     country: "Turkey",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/turkey.svg?height=80&width=80",
     activities: [
       {
         time: "02:05",
