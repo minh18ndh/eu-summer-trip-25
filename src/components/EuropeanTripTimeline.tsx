@@ -1,10 +1,6 @@
-"use client"
-
-import type React from "react"
-
 import { useState, useEffect, useRef } from "react"
 import { MapPin, Clock } from "lucide-react"
-import tripData from "@/data/tripData"
+import tripData from "../data/tripData"
 
 export default function EuropeanTripTimeline() {
   const [activeDay, setActiveDay] = useState<number>(1)
@@ -53,7 +49,7 @@ export default function EuropeanTripTimeline() {
           {/* Timeline line - responsive positioning */}
           <div className="absolute left-6 sm:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 to-purple-400"></div>
 
-          {tripData.map((day, index) => (
+          {tripData.map((day) => (
             <div
               key={day.id}
               ref={(el) => {
