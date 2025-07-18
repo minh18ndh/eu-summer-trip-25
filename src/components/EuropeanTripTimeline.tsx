@@ -34,7 +34,7 @@ export default function EuropeanTripTimeline() {
       {/* Header */}
       <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
-          <h1 className="text-lg sm:text-2xl font-bold text-gray-800">European Adventure 2025</h1>
+          <h1 className="text-lg sm:text-2xl font-bold text-gray-800">European Adventure Summer 2025</h1>
           <p className="text-sm sm:text-base text-gray-600">
             Sept 24 - Oct 13
             <span className="mx-2">•</span>
