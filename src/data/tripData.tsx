@@ -62,6 +62,8 @@ const tripData: Day[] = [
         title: "Sunset at Oia",
         description: "Relax and enjoy the famous sunset",
         icon: <Camera className="w-4 h-4" />,
+        location: "Castle of Oia, Oia",
+        mapUrl: "https://www.google.com/maps/place/Castle+of+Oia/@36.4578827,25.3734125,16.25z/data=!4m6!3m5!1s0x1499cb81660b8813:0x5aa16a50a5bb5623!8m2!3d36.4600133!4d25.3729387!16s%2Fg%2F11bt_kbj5q?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D"
       },
     ],
   },

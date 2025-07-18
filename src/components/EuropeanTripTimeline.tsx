@@ -109,10 +109,30 @@ export default function EuropeanTripTimeline() {
                             {activity.time}
                           </span>
                           {activity.location && (
-                            <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs bg-gray-50 text-gray-500 w-fit">
-                              <MapPin className="w-3 h-3" />
-                              <span className="truncate">{activity.location}</span>
-                            </span>
+                            activity.mapUrl ? (
+                              <a
+                                href={activity.mapUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs w-fit transition-all ${activeDay === day.id
+                                    ? "bg-blue-100 text-blue-700 hover:text-blue-900"
+                                    : "bg-gray-50 text-gray-500 hover:text-blue-600"
+                                  }`}
+                              >
+                                <MapPin className="w-3 h-3" />
+                                <span className="truncate">{activity.location}</span>
+                              </a>
+                            ) : (
+                              <span
+                                className={`inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs w-fit transition-all ${activeDay === day.id
+                                    ? "bg-blue-100 text-blue-700"
+                                    : "bg-gray-50 text-gray-500"
+                                  }`}
+                              >
+                                <MapPin className="w-3 h-3" />
+                                <span className="truncate">{activity.location}</span>
+                              </span>
+                            )
                           )}
                         </div>
                         <h3 className="font-semibold text-gray-800 mb-1 text-sm sm:text-base">{activity.title}</h3>

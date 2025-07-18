@@ -6,6 +6,7 @@ export interface Activity {
   description: string
   icon: ReactNode
   location?: string
+  mapUrl?: string
 }
 
 export interface Day {
